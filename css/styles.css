@@ -6,31 +6,104 @@ body {
     padding: 0;
 }
 
+.navbar {
+    padding: 0;
+}
+
 .navbar-dark .navbar-brand {
-    color: #fd5f00;
+    color: #FCFCFC;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(252,252,252,.5)
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(252,252,252,.75)
 }
 
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
 #title {
-    background-color: #005792;
+    background-color: #FF5F5F;
+    color: #FCFCFC;
     padding: 3% 15%;
 }
 
 #title h1 {
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
-    color: #f6f6e9;
 }
 
-#title img {
+.hero-img {
+    width: 50%;
     transform: rotate(25deg);
 }
 
-#title button:first-of-type {
-    margin-right: 1.5rem;
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+}
+
+#features .row{
+    text-align: center;
+    padding: 4.5% ;
+}
+
+#features h3 {
+    font-weight: 700;
+}
+#features i {
+    color: #ff9797;
+    margin-bottom: 1rem;
+    transition: color 2s;
+}
+
+#features i:hover {
+    color: #FF5F5F;
+}
+
+ /* Testimonial */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FF5F5F;
+    color: #FCFCFC;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #FF5F5F;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
