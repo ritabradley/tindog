@@ -81,7 +81,7 @@ body {
 
 #testimonials {
     text-align: center;
-    background-color: #FF5F5F;
+    background-color: #ff9797;
     color: #FCFCFC;
 }
 
@@ -101,7 +101,7 @@ body {
 }
 
 #press {
-    background-color: #FF5F5F;
+    background-color: #ff9797;
     text-align: center;
     padding-bottom: 3%;
 }
@@ -109,4 +109,27 @@ body {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* PRICING */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-header, .card-title, .card-header h3 {
+    font-weight: 700;
+}
+
+.pricing-header {
+    font-size: 2.5rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA */
+
+#cta {
+    background-color: #ff9797;
 }
