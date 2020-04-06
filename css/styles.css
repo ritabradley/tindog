@@ -3,7 +3,7 @@ body {
 }
 
 .container-fluid {
-    padding: 0;
+    padding-bottom: 7%;
 }
 
 .navbar {
@@ -48,6 +48,8 @@ body {
 .hero-img {
     width: 50%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
 }
 
 .download-btn {
@@ -57,6 +59,9 @@ body {
 /* Features */
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
 }
 
 #features .row{
